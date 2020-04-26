@@ -3,12 +3,13 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import "./reset.css";
 import Main from "./view/main";
+import withTitle from "./component/with-title";
 
 const App: React.FC = () => {
   return (
     <>
       <Router>
-        <Route path="*" component={Main} />
+        <Route path="*" component={withTitle({ component: Main })} />
       </Router>
     </>
   );
