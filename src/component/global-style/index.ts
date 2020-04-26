@@ -8,9 +8,12 @@ const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
+  html {
+    font-size : 10px;
+  }
+  
   body {
     user-select : none;
-    background-color: #F6F9FC;
   }
 
   button {

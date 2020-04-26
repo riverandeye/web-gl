@@ -1,12 +1,16 @@
 import React from "react";
-import "./reset.css";
-import Canvas from "./component/canvas";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-const App = () => {
+import "./reset.css";
+import Main from "./view/main";
+
+const App: React.FC = () => {
   return (
-    <div>
-      <Canvas width={500} height={500}></Canvas>
-    </div>
+    <>
+      <Router>
+        <Route path="*" component={Main} />
+      </Router>
+    </>
   );
 };
 
