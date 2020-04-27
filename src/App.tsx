@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <>
       <Router>
-        <Route path="*" component={withTitle({ component: Main })} />
+        <Route path="*" component={withTitle({ Component: Main })} />
       </Router>
     </>
   );
