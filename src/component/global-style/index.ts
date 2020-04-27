@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
   
   body {
     user-select : none;
+    background-color: #f6f9fc;
   }
 
   button {

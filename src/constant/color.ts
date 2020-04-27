@@ -1,0 +1,18 @@
+export const listOfColor = [
+  "white",
+  "silver",
+  "gray",
+  "black",
+  "Red",
+  "maroon",
+  "yellow",
+  "olive",
+  "lime",
+  "green",
+  "aqua",
+  "teal",
+  "blue",
+  "navy",
+  "fuchisa",
+  "purple",
+];
