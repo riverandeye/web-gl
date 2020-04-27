@@ -1,14 +1,13 @@
 import styled from "styled-components/macro";
 
-export const SideBar = styled.div`
+export const ColorBar = styled.div`
   margin: 0rem 10rem;
 `;
 
-interface SideBarContainerProps {
+interface ColorBarContainer {
   backgroundColor?: string;
 }
-
-export const SideBarContainer = styled.div<SideBarContainerProps>`
+export const ColorBarContainer = styled.div<ColorBarContainer>`
   height: 80rem;
   width: 20rem;
 
